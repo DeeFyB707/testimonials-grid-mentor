@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #EDF1F7 !important;
+}
+
+@font-face {
+    font-family: barlow;
+    src: url(../fonts/BarlowSemiCondensed-Regular.ttf);
+}
+
+.cardBody {
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 80% 0;
+    background-size: 19%;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 12px;
+}
+
+.icon {
+    border-radius: 50%;
+    width: 2.625rem;
+    height: 2.625rem;
+    border: 2px solid #ffffff5d;
+}
+
+.person h6 {
+    font-family: barlow;
+    font-weight: 400;
+    font-size: 0.938rem !important;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+}
+
+.person p {
+    font-family: barlow;
+    font-weight: 400;
+    font-size: 0.813rem !important;
+    margin: 0 !important;
+    color: hsla(0, 0%, 100%, 0.500);
+}
+
+.cardBody h1 {
+    font-weight: 900;
+    font-family: barlow;
+    font-size: 1.55rem;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    margin-top: 10px;
+}
+
+.cardBody p {
+    font-family: barlow;
+    font-weight: 600;
+    font-size: 1rem;
+    color: hsla(0, 0%, 100%, 0.3);
+    margin: 0;
+    margin-top: 15px;
+}
+
+.cardBody2 {
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 12px;
+}
+
+.cardBody2 h1 {
+    font-weight: 900;
+    font-family: barlow;
+    font-size: 1.41rem;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    margin-top: 18px;
+}
+
+.cardBody2 p {
+    font-family: barlow;
+    font-weight: 600;
+    font-size: 1rem;
+    color: hsla(0, 0%, 100%, 0.499);
+    margin: 0;
+    margin-top: 15px;
+}
+
+.cardBody3 {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    height: 100%;
+}
+
+.person3 P {
+    font-family: barlow;
+    font-weight: 400;
+    font-size: 0.813rem !important;
+    margin: 0 !important;
+    color: #B0B0B2;
+}
+
+.person3 h6 {
+    font-family: barlow;
+    font-weight: 500 !important;
+    font-size: 0.938rem;
+    margin: 0;
+    color: #62646F !important;
+}
+
+.cardBody3 h1 {
+    font-weight: 900;
+    font-family: barlow;
+    font-size: 1.28rem;
+    color: #464C5C !important;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.cardBody3 p {
+    font-family: barlow;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #84858C;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.cardBody4 {
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 12px;
+    height: 100%;
+}
+
+.person4 P {
+    font-family: barlow;
+    font-weight: 400;
+    font-size: 0.813rem !important;
+    margin: 0 !important;
+    color: #b0b0b2a0;
+}
+
+.person4 h6 {
+    font-family: barlow;
+    font-weight: 500 !important;
+    font-size: 0.938rem;
+    margin: 0;
+    color: hsl(210, 46%, 95%) !important;
+}
+
+.cardBody4 h1 {
+    font-weight: 900;
+    font-family: barlow;
+    font-size: 1.28rem;
+    color: hsl(210, 46%, 95%) !important;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.cardBody4 p {
+    font-family: barlow;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #84858C;
+    margin: 0;
+    margin-top: 15px;
+}
